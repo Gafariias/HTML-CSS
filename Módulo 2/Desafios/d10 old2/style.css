@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: droid;
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+body {
+    background-color: #CEE4F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#3DDC84, #025811);
+    font-weight: normal;
+    min-height: 150px;
+    padding-top: 20px;
+    margin: -10px -10px 0px -10px;
+}
+
+header > h1 {
+    font-family: bebasneue, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0px #023809b4;
+}
+
+header > p {
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+nav > a {
+    font-family: arial;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    margin-left: 30px;
+}
+
+nav > a:hover {
+    color: #025811;
+    background-color: aliceblue;
+    transition-delay: 0.5s;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000000a4;
+}
+
+main {
+    background-color: aliceblue;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: -5px 3px 10px #272c288a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+article > h1 {
+    font-family: droid, Arial, Helvetica, sans-serif;
+    color: #02611a;
+}
+
+span {
+    font-weight: bold;
+    color: #025811;
+}
+
+article > h2 {
+    font-family: droid, Arial, Helvetica, sans-serif;
+    color: #02611a;
+    background: linear-gradient(to right, #3DDC84, aliceblue) ;
+
+}
+
+article > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+
+
+p > a {
+    color: #02611a;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #3DDC84;
+    transition: 0.5s;
+    padding: 2px;
+}
+
+p > a:hover {
+    background-color: #025811;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+img {
+    width: 100%;
+}
+
+img.pg2 {
+    width: auto;
+}
+
+.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+div.video {
+    background-color: #02490e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding: 30%;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+h3 {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #025811;
+    padding: 10px;
+    margin: -5px -5px 0px -5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside {
+    background-color: #3DDC84;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+aside > p {
+    margin: 15px 15px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+aside > ul {
+    columns: 2;
+}
+
+footer {
+    color: aliceblue;
+    background-color: #02490e;
+    text-align: center;
+    padding: 5px;
+    margin: 0px -10px -10px -10px;
+}
+
+.final {
+    color: #3DDC84;
+    font-weight: bold;
+}
+
+.form {
+    position: relative;
+    width: 20rem;   
+    margin-bottom: 20px; 
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(5, 124, 5);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    color: green;
+    outline: none;
+    padding: 2px;
+    background: none;
+}
+
+input:hover {
+    transition-duration: 2s;
+}
+
+input:focus {
+    border-color: #02490e;
+}
+
+.form__label {
+    padding: 0 0.5rem;
+    color: #02490e;
+    font-weight: bold;
+    cursor: text;
+    transition: top .2s ease-in, left .2s ease-in, font-size .2s ease-in;
+}
+
+.form__label:focus {
+    nav-up: -1rem;
+}
+
+.form__input:focus ~ .form__label {
+    top: -1rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+}

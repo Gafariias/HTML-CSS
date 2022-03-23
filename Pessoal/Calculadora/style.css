@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, rgb(71, 2, 2), rgb(26, 3, 3));
+    margin: none;
+}
+
+main {
+    background-color: black;
+    min-width: 310px;
+    max-width: 400px;
+    max-height: 500px;
+    min-height: 410px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 90px;
+    height: 90px;
+}
+
+#corpo {
+    columns: 3;
+    background-color: red;
+    width: 400px;
+}

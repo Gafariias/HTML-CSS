@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(166, 236, 166);
+}
+
+header {
+    background: linear-gradient(rgb(148, 238, 148), rgb(52, 117, 52));
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    margin: -10px;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 15px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    background-color: aliceblue;
+    color: green;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(31, 37, 31);
+}
+
+h1 {
+    padding: 10px;
+    text-shadow: 1px 1px 3px rgb(1, 48, 1);
+}
+
+.principal {
+    padding: 5px;
+}
+
+main {
+    background-color: aliceblue;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px; 
+    padding: 10px;
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'android',Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+h3 {
+    background: linear-gradient(to right, rgb(197, 236, 197), aliceblue);
+    font-family: 'android',Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+.dentro {
+    color: rgb(7, 102, 7);
+}
+
+a {
+    color: rgb(7, 97, 7);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(166, 236, 166);
+    padding: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.video {
+    background-color: green;
+    margin: 0 -20 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+.mais {
+    background-color: rgb(166, 236, 166);
+    border-radius: 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+h4 {
+    color: aliceblue;
+    background-color: rgb(38, 177, 38);
+    padding: 8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: rgb(32, 158, 32);
+    color: aliceblue;
+    text-align: center;
+    padding: 1px;
+    margin: -11px;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(141, 231, 141);
+}
+
+div > p {
+    margin: 5px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
