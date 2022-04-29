@@ -1,0 +1,27 @@
+body {
+  height: 97vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: brown;
+  border: 4px solid #631212;
+  width: 450px;
+  height: 200px;
+}
+
+td {
+  border: 2px solid black;
+}
+/*# sourceMappingURL=style.css.map */
