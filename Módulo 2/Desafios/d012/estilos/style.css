@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+/* 'Passion One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+/* 'Sriracha', cursive; */
+/* Gerais */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sriracha", cursive;
+  font-size: 3.5vw;
+}
+
+/* Cabeçalho */
+header {
+  padding: 50px;
+  font-family: "Passion One", cursive;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header > h1 {
+  font-family: "Passion One", cursive;
+  font-size: 10vw;
+  font-weight: normal;
+}
+
+header > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5vw;
+}
+
+header > p > a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+header > p > a:hover {
+  text-decoration: underline;
+}
+
+/* Conteudo */
+.secao {
+  width: 45vw;
+}
+
+.container {
+  padding: 25px 25px 50px 25px;
+}
+
+.parallax {
+  -webkit-box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.61);
+          box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.61);
+  color: white;
+  /*  Efeito Parallax*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img {
+  background-color: rgba(26, 25, 25, 0.493);
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+/* Seções com imagem no fundo */
+#segunda {
+  background-image: url(../imagens/background001.jpg);
+}
+
+#quinta {
+  background-image: url(../imagens/background002.jpg);
+}
+
+/* rodapé */
+footer {
+  text-align: center;
+  font-size: 1.7vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
