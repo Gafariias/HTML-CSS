@@ -99,3 +99,28 @@ footer {
 span {
     font-weight: bold;
 }
+
+/* Mobile */
+@media only screen and (max-width: 700px) {
+    header {
+        &>h1 {
+            font-size: 13vw;
+        }
+
+        &>p {
+            font-size: 3vw;
+        }
+    }
+
+    body {
+        font-size: 4.4vw;
+    }
+
+    .secao {
+        width: 55vw;
+    }
+
+    footer {
+        font-size: 2.5vw;
+    }
+}
